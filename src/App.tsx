@@ -1,8 +1,10 @@
+import TaskList from "./components/TaskList";
+
 function App() {
   return (
-    <>
-      <h1 className="bg-red-100 text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="min-h-screen bg-gray-100 p-6">
+      <TaskList />
+    </div>
   );
 }
 
